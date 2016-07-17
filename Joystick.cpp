@@ -47,15 +47,15 @@ static const uint8_t _hidReportDescriptor[] PROGMEM = {
 
 	// X, Y Axis
 	0x05, 0x01,			      //   USAGE_PAGE (Generic Desktop)
-	0x09, 0x01,               //   USAGE (Pointer)
-    0x15, 0x81,               //   LOGICAL_MINIMUM (-127)
-    0x25, 0x7f,               //   LOGICAL_MAXIMUM (127)
+	0x09, 0x01,			      //   USAGE (Pointer)
+	0x15, 0x81,			      //   LOGICAL_MINIMUM (-127)
+	0x25, 0x7f,			      //   LOGICAL_MAXIMUM (127)
 	0xA1, 0x00,			      //   COLLECTION (Physical)
-	0x09, 0x30,		          //     USAGE (x)
-	0x09, 0x31,		          //     USAGE (y)
-    0x75, 0x08,               //     REPORT_SIZE (8)
-    0x95, 0x02,               //     REPORT_COUNT (2)
-	0x81, 0x02,		          //     INPUT (Data,Var,Abs)
+	0x09, 0x30,			      //     USAGE (x)
+	0x09, 0x31,			      //     USAGE (y)
+	0x75, 0x08,			      //     REPORT_SIZE (8)
+	0x95, 0x02,			      //     REPORT_COUNT (2)
+	0x81, 0x02,			      //     INPUT (Data,Var,Abs)
 	0xc0,				      //   END_COLLECTION
                               
 	0xc0				      // END_COLLECTION
